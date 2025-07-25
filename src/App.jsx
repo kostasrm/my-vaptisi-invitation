@@ -148,7 +148,7 @@ export default function BaptismInvitation() {
 
           <h1 className='mb-8 text-2xl leading-tight text-gray-800 md:text-4xl lg:text-6xl'>
             <div className='mb-2'>
-              <span className='text-3xl md:text-5xl lg:text-7xl bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 animate-gradient-shift'>
+              <span className='text-3xl font-elegant md:text-5xl lg:text-7xl bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 animate-gradient-shift'>
                 Σας προσκαλούμε στην βάπτιση της
               </span>
             </div>
