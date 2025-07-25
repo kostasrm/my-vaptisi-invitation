@@ -73,31 +73,51 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-      'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+      'Noto Sans', sans-serif;
   }
   .font-serif {
-    font-family: var(--font-playfair);
+    font-family: var(--font-playfair), 'Times New Roman', serif;
   }
   .font-script {
-    font-family: var(--font-dancing);
+    font-family: var(--font-dancing), 'Great Vibes', cursive;
   }
   .font-calligraphy {
-    font-family: var(--font-great-vibes);
+    font-family: var(--font-great-vibes), 'Dancing Script', cursive;
   }
   .font-elegant {
-    font-family: var(--font-allura);
+    font-family: var(--font-allura), 'Great Vibes', cursive;
   }
   .font-cormorant {
-    font-family: var(--font-cormorant);
+    font-family: var(--font-cormorant), 'Times New Roman', serif;
   }
   .font-inter {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, sans-serif;
   }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Add media query for mobile */
+@media (max-width: 640px) {
+  /* Tailwind's sm breakpoint */
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      sans-serif !important;
+  }
+  .font-serif,
+  .font-script,
+  .font-calligraphy,
+  .font-elegant,
+  .font-cormorant,
+  .font-inter {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      sans-serif !important;
+  }
 }
 
 .butterfly {
