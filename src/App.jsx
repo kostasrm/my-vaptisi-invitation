@@ -224,7 +224,7 @@ export default function BaptismInvitation() {
                   Ιερός Ναός της Υπαπαντής του Κυρίου
                 </h3>
                 <div className='space-y-4 text-gray-700'>
-                  <p className='text-lg leading-relaxed font-cormorant'>
+                  <p className='text-lg leading-relaxed text-center font-cormorant '>
                     Μια όμορφη παραδοσιακή εκκλησία στο γραφικό Κομμένο της
                     Κέρκυρας, όπου θα τελεστεί η βάπτιση της μικρής μας
                     πριγκίπισσας.
