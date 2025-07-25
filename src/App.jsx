@@ -484,7 +484,7 @@ export default function BaptismInvitation() {
                   className='flex items-center justify-center space-x-3 text-3xl font-bold text-gray-800 transition-colors duration-300 hover:text-purple-600 group font-inter'
                 >
                   <Phone className='w-8 h-8 group-hover:animate-wiggle' />
-                  <span>+695 556 9195</span>
+                  <span>695 556 9195</span>
                 </a>
               </div>
 
