@@ -330,20 +330,26 @@ export default function BaptismInvitation() {
                     title='Ιερός Ναός Υπαπαντής Γουβιών'
                   ></iframe>
                 </div>
-
                 <div className='absolute max-w-xs p-4 shadow-lg top-4 left-4 bg-white/95 backdrop-blur-sm rounded-2xl'>
-                  <div className='flex items-center mb-2 space-x-3'>
-                    <div className='w-3 h-3 bg-red-500 rounded-full animate-gentle-pulse'></div>
-                    <h4 className='font-semibold text-gray-800 font-cormorant'>
-                      Ιερός Ναός Υπαπαντής
-                    </h4>
-                  </div>
-                  <p className='text-sm text-gray-600 font-cormorant'>
-                    Κομμένο, Κέρκυρα
-                  </p>
-                  <p className='mt-1 text-xs text-gray-500 font-cormorant'>
-                    Κάντε κλικ για οδηγίες
-                  </p>
+                  <a
+                    href='https://www.google.com/maps/place/%CE%99%CE%B5%CF%81%CF%8C%CF%82+%CE%9D%CE%B1%CF%8C%CF%82+%CE%A5%CF%80%CE%B1%CF%80%CE%B1%CE%BD%CF%84%CE%AE%CF%82+%CE%93%CE%BF%CF%85%CE%B2%CE%B9%CF%8E%CE%BD/@39.6586803,19.846151,17z/data=!3m1!4b1!4m6!3m5!1s0x135b5b86069b25e9:0x2e4a8b41a36af4d9!8m2!3d39.6586803!4d19.8487259!16s%2Fg%2F11c53592vn?entry=ttu'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='block'
+                  >
+                    <div className='flex items-center mb-2 space-x-3'>
+                      <div className='w-3 h-3 bg-red-500 rounded-full animate-gentle-pulse'></div>
+                      <h4 className='font-semibold text-gray-800 font-cormorant'>
+                        Ιερός Ναός Υπαπαντής
+                      </h4>
+                    </div>
+                    <p className='text-sm text-gray-600 font-cormorant'>
+                      Κομμένο, Κέρκυρα
+                    </p>
+                    <p className='mt-1 text-xs text-gray-500 font-cormorant'>
+                      Κάντε κλικ για οδηγίες
+                    </p>
+                  </a>
                 </div>
               </div>
 
