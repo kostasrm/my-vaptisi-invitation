@@ -221,7 +221,7 @@ export default function BaptismInvitation() {
             <Card className='overflow-hidden transition-all duration-500 transform border-0 shadow-2xl backdrop-blur-sm bg-white/90 rounded-3xl hover:scale-105'>
               <CardContent className='p-10'>
                 <h3 className='mb-6 text-2xl text-center text-gray-800 font-elegant'>
-                  Ιερός Ναός της Υπαπαντής του κυρίου
+                  Ιερός Ναός της Υπαπαντής του Κυρίου
                 </h3>
                 <div className='space-y-4 text-gray-700'>
                   <p className='text-lg leading-relaxed font-cormorant'>
